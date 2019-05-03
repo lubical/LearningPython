@@ -3,8 +3,9 @@
 
 import matplotlib.pyplot as plt
 
+input_values = [1, 2, 3, 4, 5]
 squares = [1, 4, 9, 16, 25]
-plt.plot(squares, linewidth=5)
+plt.plot(input_values, squares, linewidth=5)
 # Set chart title and label axes. vplt.title("Square Numbers", fontsize=24) wplt.xlabel("Value", fontsize=14)
 plt.ylabel("Square of Value", fontsize=14)
 
